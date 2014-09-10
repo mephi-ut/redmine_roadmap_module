@@ -2,8 +2,8 @@ require 'redmine'
 require 'application_helper'
 
 Redmine::Plugin.register :redmine_roadmap_module do
-	name 'Redmine remove Homepage'
-	description 'A plugin to change order of project menu items.'
+	name 'Redmine to hide the Roadmap tab from project menu'
+	description 'A plugin to be able to hide/show Roadmap from project menu with enabling/disabling Roadmap module in the project settings.'
 	url 'https://github.com/mephi-ut/redmine_roadmap_module'
 	author 'Dmitry Yu Okunev'
 	author_url 'https://github.com/xaionaro'
